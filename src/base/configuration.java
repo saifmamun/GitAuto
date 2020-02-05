@@ -47,6 +47,8 @@ public class configuration extends WebDriverFunctions {
 	public void afterTest (){
 		System.out.println("Close the browser");
 		APPLICATION_LOGS.info ("Browser got closed");
+		APPLICATION_LOGS.info ("Browser got closed1");
+		APPLICATION_LOGS.info ("Browser got closed2");
 		driver.close();
 	}
 	
